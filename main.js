@@ -1,6 +1,6 @@
 const TelegramBot = require('node-telegram-bot-api');
 
-const token = "7915886901:AAHKmoCl-4aUciGwuS4uRWvmuPNZqXhGC2w"
+const token = "xxxxxxxxxx"
 
 const options = {
     polling: true
@@ -33,7 +33,7 @@ testBot.onText(gempa, async (callback) => {
     } } } = await apiCall.json();
 
     const image = URL + Shakemap
-    
+
 const result = `
 Jam: ${Jam}
 Magnitude: ${Magnitude}
